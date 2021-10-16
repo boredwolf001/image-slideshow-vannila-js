@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image slideshow - Vannila JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="slideshow">
+      <div class="slides">
+        <div class="slide">
+          <h1>Explore The World!</h1>
+          <a href="#">Read More</a>
+        </div>
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/6357186/pexels-photo-6357186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          />
+        </div>
+      </div>
+      <i id="next" class="arrows fas fa-chevron-right"></i>
+      <i id="prev" class="arrows fas fa-chevron-left"></i>
+      <div class="dots">
+        <i class="dot far fa-circle" data-index="0"></i>
+        <i class="dot far fa-circle" data-index="1"></i>
+        <i class="dot far fa-circle" data-index="2"></i>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
